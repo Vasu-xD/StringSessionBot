@@ -22,8 +22,7 @@ class Data:
 
     START = """
 **Hey {}!
-
-Welcome to {}
+Welcome to {}, A Simple Telethon And Pyrogram Session Generator Bot.
 
 You can use me to generate pyrogram (also support v2) and telethon string session for a user or bot. Use below buttons to learn more !
 
