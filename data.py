@@ -24,7 +24,7 @@ class Data:
 **Hey {}!
 Welcome to {}, A Simple Telethon And Pyrogram Session Generator Bot.
 
-You can use me to generate pyrogram (also support v2) and telethon string session for a user or bot. Use below buttons to learn more !
+You can use me to generate pyrogram and telethon string session for a user account or bot. Use below buttons to learn more !
 
 ☘ By @VasuBots**
     """
@@ -32,22 +32,20 @@ You can use me to generate pyrogram (also support v2) and telethon string sessio
     HELP = """
 ✨ **Available Commands** ✨
 
-/about - About The Bot
+**/about - About The Bot
 /help - This Message
 /start - Start the Bot
 /generate - Generate Session
 /cancel - Cancel the process
-/restart - Cancel the process
+/restart - Cancel the process**
 """
 
     ABOUT = """
-**About This Bot** 
+**Telegram Bot to generate Pyrogram and Telethon string session By @VasuBots**
 
-Telegram Bot to generate Pyrogram and Telethon string session by @VasuBots
+💡 Framework : [Pyrogram](https://docs.pyrogram.org)
 
-Framework : [Pyrogram](https://docs.pyrogram.org)
+🏳️‍🌈 Language : [Python](https://www.python.org)
 
-Language : [Python](https://www.python.org)
-
-Developer : @VasuXD
+**🧑🏻‍💻 Developer : @VasuXD**
     """
