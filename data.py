@@ -15,24 +15,19 @@ class Data:
         generate_single_button,
         [
             InlineKeyboardButton("Commands ❔", callback_data="help"),
-            InlineKeyboardButton("Info ℹ️", callback_data="about")
+            InlineKeyboardButton("🖥 About", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ Awesome Project ♥", url="https://t.me/awesome_project")],
+        [InlineKeyboardButton("🎉 Awesome Bots", url="https://t.me/VasuBots")],
     ]
 
     START = """
-Hey {}
+**Hey {}!
 
 Welcome to {}
 
-If you don't trust this bot, 
-1) stop reading this message
-2) delete this chat
+You can use me to generate pyrogram (also support v2) and telethon string session for a user or bot. Use below buttons to learn more !
 
-Still reading?
-You can use me to generate pyrogram (even version 2) and telethon string session. Use below buttons to learn more !
-
-By @VasuBots
+☘ By @VasuBots**
     """
 
     HELP = """
@@ -50,8 +45,6 @@ By @VasuBots
 **About This Bot** 
 
 Telegram Bot to generate Pyrogram and Telethon string session by @VasuBots
-
-Project : [@awesome_project](https://t.me/awesome_project) & [@awesome_bots](https://t.me/awesome_bots)
 
 Framework : [Pyrogram](https://docs.pyrogram.org)
 
